@@ -51,6 +51,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'mailchimp3',
         'setuptools',
         'Products.CMFPlone',
         'plone.app.portlets',
